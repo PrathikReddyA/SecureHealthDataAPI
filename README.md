@@ -1,22 +1,22 @@
 # SecureHealthDataAPI
 
 A secure health plan API with the following functionalities:
-Rest API that can handle any structured data in Json - Specifies URIs, status codes, headers, data model, version
-Rest API with support for crd operations - Post, Get, Delete
-Rest API with support for validation - Json Schema describes the data model for the use case
-Controller validates incoming payloads against json schema
-The semantics with ReST API operations such as update if not changed/read if changed
-Storage of data in key/value store - Implements use case provided
-Rest API that can handle any structured data in Json
-Rest API with support for crud operations, including merge support, cascaded delete
-Rest API with support for validation
-Advanced semantics with rest API operations such as update if not changed
-Storage of data in key/value store
-Search with join using Elastic
-Parent-Child indexing
-(Patch changes are shown from the Search API)
-Queueing
-Security
+Rest API that can handle any structured data in Json - Specifies URIs, status codes, headers, data model, version. 
+Rest API with support for crd operations - Post, Get, Delete. 
+Rest API with support for validation - Json Schema describes the data model for the use case. 
+Controller validates incoming payloads against json schema. 
+The semantics with ReST API operations such as update if not changed/read if changed. 
+Storage of data in key/value store - Implements use case provided. 
+Rest API that can handle any structured data in Json. 
+Rest API with support for crud operations, including merge support, cascaded delete. 
+Rest API with support for validation. 
+Advanced semantics with rest API operations such as update if not changed. 
+Storage of data in key/value store. 
+Search with join using Elastic. 
+Parent-Child indexing. 
+(Patch changes are shown from the Search API). 
+Queueing. 
+Security. 
 
 
 Steps to be followed to demonstrate the above functionality:
